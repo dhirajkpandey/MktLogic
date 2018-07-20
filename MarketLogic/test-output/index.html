@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-GoogleUI">
+              <span class="suite-name border-passed">GoogleUI</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-GoogleUI">
+                    <span>E:\MarketLogic\MarketLogic\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-GoogleUI">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-GoogleUI">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-GoogleUI">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-GoogleUI">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-GoogleUI">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-GoogleUI">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GoogleUI" class="hide-methods passed suite-GoogleUI"> (hide)</a> <!-- hide-methods passed suite-GoogleUI -->
+                      <a href="#" panel-name="suite-GoogleUI" class="show-methods passed suite-GoogleUI"> (show)</a> <!-- show-methods passed suite-GoogleUI -->
+                    </span>
+                    <div class="method-list-content passed suite-GoogleUI">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifyDirectOpeningSearchResult">verifyDirectOpeningSearchResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifyExistingGoogleAccountValidation">verifyExistingGoogleAccountValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifyForgotEmailFunctionality">verifyForgotEmailFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifyGoogleSearch">verifyGoogleSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifyGoogleSearchNotFoundValidation">verifyGoogleSearchNotFoundValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifyGoogleSearchThroughImageURL">verifyGoogleSearchThroughImageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifySuccessfulGmailLogin">verifySuccessfulGmailLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifySuccessfulGmailLogout">verifySuccessfulGmailLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GoogleUI" title="testscripts.GoogleTest" hash-for-method="verifyWrongEmailValidationMessage">verifyWrongEmailValidationMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GoogleUI -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GoogleUI" class="panel GoogleUI">
+          <div class="suite-GoogleUI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.GoogleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDirectOpeningSearchResult">
+                  </a> <!-- verifyDirectOpeningSearchResult -->
+                  <span class="method-name">verifyDirectOpeningSearchResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyExistingGoogleAccountValidation">
+                  </a> <!-- verifyExistingGoogleAccountValidation -->
+                  <span class="method-name">verifyExistingGoogleAccountValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotEmailFunctionality">
+                  </a> <!-- verifyForgotEmailFunctionality -->
+                  <span class="method-name">verifyForgotEmailFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGoogleSearch">
+                  </a> <!-- verifyGoogleSearch -->
+                  <span class="method-name">verifyGoogleSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGoogleSearchNotFoundValidation">
+                  </a> <!-- verifyGoogleSearchNotFoundValidation -->
+                  <span class="method-name">verifyGoogleSearchNotFoundValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGoogleSearchThroughImageURL">
+                  </a> <!-- verifyGoogleSearchThroughImageURL -->
+                  <span class="method-name">verifyGoogleSearchThroughImageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfulGmailLogin">
+                  </a> <!-- verifySuccessfulGmailLogin -->
+                  <span class="method-name">verifySuccessfulGmailLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfulGmailLogout">
+                  </a> <!-- verifySuccessfulGmailLogout -->
+                  <span class="method-name">verifySuccessfulGmailLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWrongEmailValidationMessage">
+                  </a> <!-- verifyWrongEmailValidationMessage -->
+                  <span class="method-name">verifyWrongEmailValidationMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoogleUI-class-passed -->
+        </div> <!-- panel GoogleUI -->
+        <div panel-name="test-xml-GoogleUI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\MarketLogic\MarketLogic\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;GoogleUI&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GoogleTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscripts.GoogleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GoogleTest --&gt;
+&lt;/suite&gt; &lt;!-- GoogleUI --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GoogleUI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GoogleUI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GoogleTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GoogleUI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GoogleUI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GoogleUI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GoogleUI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GoogleUI');
+function tableData_GoogleUI() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySuccessfulGmailLogout')
+data.setCell(0, 2, 'testscripts.GoogleTest')
+data.setCell(0, 3, 17932);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyGoogleSearch')
+data.setCell(1, 2, 'testscripts.GoogleTest')
+data.setCell(1, 3, 11877);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyWrongEmailValidationMessage')
+data.setCell(2, 2, 'testscripts.GoogleTest')
+data.setCell(2, 3, 11067);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyExistingGoogleAccountValidation')
+data.setCell(3, 2, 'testscripts.GoogleTest')
+data.setCell(3, 3, 9380);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyDirectOpeningSearchResult')
+data.setCell(4, 2, 'testscripts.GoogleTest')
+data.setCell(4, 3, 8487);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyGoogleSearchThroughImageURL')
+data.setCell(5, 2, 'testscripts.GoogleTest')
+data.setCell(5, 3, 4312);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyForgotEmailFunctionality')
+data.setCell(6, 2, 'testscripts.GoogleTest')
+data.setCell(6, 3, 2535);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyGoogleSearchNotFoundValidation')
+data.setCell(7, 2, 'testscripts.GoogleTest')
+data.setCell(7, 3, 2011);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySuccessfulGmailLogin')
+data.setCell(8, 2, 'testscripts.GoogleTest')
+data.setCell(8, 3, 1336);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyPageTitle')
+data.setCell(9, 2, 'testscripts.GoogleTest')
+data.setCell(9, 3, 32);
+window.suiteTableData['GoogleUI']= { tableData: data, tableDiv: 'times-div-GoogleUI'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-GoogleUI">
+              </div> <!-- times-div-GoogleUI -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GoogleUI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GoogleUI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGoogleSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Search found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyDirectOpeningSearchResult</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searched text results in direct opening of the site</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPageTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Page Title Verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyWrongEmailValidationMessage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Wrong email validation message is verified.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGoogleSearchNotFoundValidation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validation message 'did not match any documents' is verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyExistingGoogleAccountValidation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Google existing user name validation message is verified.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GoogleUI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GoogleUI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.GoogleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">fnpreCondition(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">13623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGoogleSearch</span>
+                <span class="method-start">13660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGoogleSearchNotFoundValidation</span>
+                <span class="method-start">25540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDirectOpeningSearchResult</span>
+                <span class="method-start">27553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWrongEmailValidationMessage</span>
+                <span class="method-start">36043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotEmailFunctionality</span>
+                <span class="method-start">47112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyExistingGoogleAccountValidation</span>
+                <span class="method-start">49649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfulGmailLogin</span>
+                <span class="method-start">59030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfulGmailLogout</span>
+                <span class="method-start">60368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGoogleSearchThroughImageURL</span>
+                <span class="method-start">78301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">fnpostCondition</span>
+                <span class="method-start">82614 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

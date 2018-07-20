@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Page Title Verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Search found]]>
+    </line>
+    <line>
+      <![CDATA[Validation message 'did not match any documents' is verified]]>
+    </line>
+    <line>
+      <![CDATA[Searched text results in direct opening of the site]]>
+    </line>
+    <line>
+      <![CDATA[Wrong email validation message is verified.]]>
+    </line>
+    <line>
+      <![CDATA[Google existing user name validation message is verified.]]>
+    </line>
+  </reporter-output>
+  <suite name="GoogleUI" duration-ms="84734" started-at="2018-07-20T19:49:17Z" finished-at="2018-07-20T19:50:41Z">
+    <groups>
+    </groups>
+    <test name="GoogleTest" duration-ms="84734" started-at="2018-07-20T19:49:17Z" finished-at="2018-07-20T19:50:41Z">
+      <class name="testscripts.GoogleTest">
+        <test-method status="PASS" signature="fnpreCondition(java.lang.String)[pri:0, instance:testscripts.GoogleTest@6121c9d6]" name="fnpreCondition" is-config="true" duration-ms="13605" started-at="2018-07-20T19:49:17Z" finished-at="2018-07-20T19:49:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnpreCondition -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:testscripts.GoogleTest@6121c9d6]" name="verifyPageTitle" duration-ms="32" started-at="2018-07-20T19:49:30Z" finished-at="2018-07-20T19:49:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Title Verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="verifyGoogleSearch()[pri:2, instance:testscripts.GoogleTest@6121c9d6]" name="verifyGoogleSearch" duration-ms="11877" started-at="2018-07-20T19:49:30Z" finished-at="2018-07-20T19:49:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Search found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGoogleSearch -->
+        <test-method status="PASS" signature="verifyGoogleSearchNotFoundValidation()[pri:3, instance:testscripts.GoogleTest@6121c9d6]" name="verifyGoogleSearchNotFoundValidation" duration-ms="2011" started-at="2018-07-20T19:49:42Z" finished-at="2018-07-20T19:49:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validation message 'did not match any documents' is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGoogleSearchNotFoundValidation -->
+        <test-method status="PASS" signature="verifyDirectOpeningSearchResult()[pri:4, instance:testscripts.GoogleTest@6121c9d6]" name="verifyDirectOpeningSearchResult" duration-ms="8487" started-at="2018-07-20T19:49:44Z" finished-at="2018-07-20T19:49:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Searched text results in direct opening of the site]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDirectOpeningSearchResult -->
+        <test-method status="PASS" signature="verifyWrongEmailValidationMessage()[pri:5, instance:testscripts.GoogleTest@6121c9d6]" name="verifyWrongEmailValidationMessage" duration-ms="11067" started-at="2018-07-20T19:49:53Z" finished-at="2018-07-20T19:50:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong email validation message is verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWrongEmailValidationMessage -->
+        <test-method status="PASS" signature="verifyForgotEmailFunctionality()[pri:6, instance:testscripts.GoogleTest@6121c9d6]" name="verifyForgotEmailFunctionality" duration-ms="2535" started-at="2018-07-20T19:50:04Z" finished-at="2018-07-20T19:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotEmailFunctionality -->
+        <test-method status="PASS" signature="verifyExistingGoogleAccountValidation()[pri:7, instance:testscripts.GoogleTest@6121c9d6]" name="verifyExistingGoogleAccountValidation" duration-ms="9380" started-at="2018-07-20T19:50:06Z" finished-at="2018-07-20T19:50:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google existing user name validation message is verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyExistingGoogleAccountValidation -->
+        <test-method status="PASS" signature="verifySuccessfulGmailLogin()[pri:8, instance:testscripts.GoogleTest@6121c9d6]" name="verifySuccessfulGmailLogin" duration-ms="1336" started-at="2018-07-20T19:50:16Z" finished-at="2018-07-20T19:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulGmailLogin -->
+        <test-method status="PASS" signature="verifySuccessfulGmailLogout()[pri:9, instance:testscripts.GoogleTest@6121c9d6]" name="verifySuccessfulGmailLogout" duration-ms="17932" started-at="2018-07-20T19:50:17Z" finished-at="2018-07-20T19:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulGmailLogout -->
+        <test-method status="PASS" signature="verifyGoogleSearchThroughImageURL()[pri:10, instance:testscripts.GoogleTest@6121c9d6]" name="verifyGoogleSearchThroughImageURL" duration-ms="4312" started-at="2018-07-20T19:50:35Z" finished-at="2018-07-20T19:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoogleSearchThroughImageURL -->
+        <test-method status="PASS" signature="fnpostCondition()[pri:0, instance:testscripts.GoogleTest@6121c9d6]" name="fnpostCondition" is-config="true" duration-ms="2105" started-at="2018-07-20T19:50:39Z" finished-at="2018-07-20T19:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnpostCondition -->
+      </class> <!-- testscripts.GoogleTest -->
+    </test> <!-- GoogleTest -->
+  </suite> <!-- GoogleUI -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GoogleUI]">
+  <test thread-count="5" name="GoogleTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testscripts.GoogleTest">
+        <methods>
+          <include name="verifyForgotEmailFunctionality"/>
+          <include name="verifySuccessfulGmailLogin"/>
+          <include name="verifySuccessfulGmailLogout"/>
+          <include name="fnpostCondition"/>
+          <include name="verifyGoogleSearch"/>
+          <include name="fnpreCondition"/>
+        </methods>
+      </class> <!-- testscripts.GoogleTest -->
+    </classes>
+  </test> <!-- GoogleTest(failed) -->
+</suite> <!-- Failed suite [GoogleUI] -->
